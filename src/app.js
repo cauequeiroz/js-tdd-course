@@ -6,7 +6,7 @@ const sum = () => a + b + c;
 
 sum();
 
-if ( a > b ) {
+if (a > b) {
   sum();
 
   if (a < b) {
