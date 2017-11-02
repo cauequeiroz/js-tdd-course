@@ -7,8 +7,4 @@ const FizzBuzz = (number) => {
   return number;
 };
 
-const foo = (another) => {
-  return another.concat([]);
-};
-
 export default FizzBuzz;
