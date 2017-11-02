@@ -1,12 +1,9 @@
-const sum = (x, y) => x + y;
-const sub = (x, y) => x - y;
-const mult = (x, y) => x * y;
-const div = (x, y) => {
-  if (y === 0) {
-    return 'Não é possível divisão por zero!';
-  }
+const FizzBuzz = (number) => {
+  if (number % 3 === 0 && number % 5 === 0) return 'FizzBuzz';
+  if (number % 3 === 0) return 'Fizz';
+  if (number % 5 === 0) return 'Buzz';
 
-  return x / y;
+  return number;
 };
 
-export { sum, sub, mult, div };
+export default FizzBuzz;
